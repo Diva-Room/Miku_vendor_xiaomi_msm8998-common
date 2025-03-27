@@ -291,7 +291,6 @@ PRODUCT_PACKAGES += \
     libmorpho_hdr_checker \
     libmpbase \
     libois_bu63164 \
-    libpn553_fw \
     libqomx_core \
     libqomx_jpegdec \
     libqomx_jpegenc \
@@ -385,6 +384,7 @@ PRODUCT_PACKAGES += \
     libpdmapper \
     libpdnotifier \
     libperipheral_client \
+    libpn557_fw \
     libqcc_file_agent \
     libqcmaputils \
     libqcrilFramework \
