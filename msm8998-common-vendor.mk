@@ -155,7 +155,7 @@ PRODUCT_PACKAGES += \
     libthermalclient \
     libtime_genoff \
     sensors.ssc \
-    vendor.qti.hardware.tui_comm@1.0 \
+    vendor.qti.hardware.tui_comm@1.0-vendor \
     camera.msm8998 \
     sound_trigger.primary.msm8998 \
     libFaceGrade \
@@ -305,15 +305,15 @@ PRODUCT_PACKAGES += \
     libasphere \
     libdirac \
     libspatialaudio \
-    com.qualcomm.qti.dpm.api@1.0 \
-    com.qualcomm.qti.imscmservice@1.0 \
-    com.qualcomm.qti.imscmservice@2.0 \
-    com.qualcomm.qti.imscmservice@2.1 \
-    com.qualcomm.qti.imscmservice@2.2 \
-    com.qualcomm.qti.uceservice@2.0 \
-    com.qualcomm.qti.uceservice@2.1 \
-    com.qualcomm.qti.uceservice@2.2 \
-    com.qualcomm.qti.uceservice@2.3 \
+    com.qualcomm.qti.dpm.api@1.0-vendor \
+    com.qualcomm.qti.imscmservice@1.0-vendor \
+    com.qualcomm.qti.imscmservice@2.0-vendor \
+    com.qualcomm.qti.imscmservice@2.1-vendor \
+    com.qualcomm.qti.imscmservice@2.2-vendor \
+    com.qualcomm.qti.uceservice@2.0-vendor \
+    com.qualcomm.qti.uceservice@2.1-vendor \
+    com.qualcomm.qti.uceservice@2.2-vendor \
+    com.qualcomm.qti.uceservice@2.3-vendor \
     android.hardware.bluetooth@1.0-impl-qti \
     com.dsi.ant@1.0-impl \
     gatekeeper.msm8998 \
@@ -435,7 +435,7 @@ PRODUCT_PACKAGES += \
     vendor.qti.gnss@3.0 \
     vendor.qti.gnss@4.0-service \
     vendor.qti.gnss@4.0 \
-    vendor.qti.hardware.alarm@1.0 \
+    vendor.qti.hardware.alarm@1.0-vendor \
     vendor.qti.hardware.bluetooth_sar@1.0 \
     vendor.qti.hardware.bluetooth_sar@1.1 \
     vendor.qti.hardware.data.cne.internal.api@1.0 \
@@ -489,14 +489,14 @@ PRODUCT_PACKAGES += \
     vendor.qti.ims.rcsconfig@2.0 \
     vendor.qti.ims.rcsconfig@2.1 \
     vendor.qti.imsrtpservice@3.0-service-Impl \
-    vendor.qti.imsrtpservice@3.0 \
+    vendor.qti.imsrtpservice@3.0-vendor \
     vendor.qti.latency@2.0 \
     vendor.qti.latency@2.1 \
     vendor.xiaomi.hardware.mlipay@1.0 \
     vendor.xiaomi.hardware.mlipay@1.1 \
     vendor.xiaomi.hardware.mtdservice@1.0 \
     dirac_resource \
-    dirac_resource \
+    dirac_resource-vendor \
     libadsp_fd_skel \
     libadsp_hvx_add_constant \
     libadsp_hvx_skel \
